@@ -11,30 +11,60 @@ body {
     width: 1500px;
     height: 300px;
 }
+iframe {
+    display: inline-block;
+}
+
+
 @media(max-width: 992px) {
-    img {
-        display: flex;
-        justify-content: center;
+    iframe {
+        display: inline;
+        align-content: center;
     }
+    img #part {
+        align-content: center;
+        width: 992px;
+    }
+    
 }
 
 @media(max-width: 768px) {
-    img {
-        display: flex;
-        justify-content:  center;
+    iframe {
+        display: inline;
+        align-content: center;
+    }
+    img #part {
+        width: 768px;
+        align-content: center;
+
     }
 }
 
 @media(max-width: 399px) {
-    img {
-        display: flex;
-        justify-content:  center;
+    iframe {
+        display: inline;
+        align-content: center;
+    }
+    img #part {
+        width: 399px;
+        align-content: center;
+
     }
 }
 
 @media(max-width: 360px) {
-    img {
-        display: flex;
-        justify-content:  center;
+     iframe {
+        display: inline;
+        align-content: center;
     }
+    img #part {
+        width: 360px;
+        align-content: center;
+
+    }
+    div.freebirdFormviewerViewFormContentWrapper{
+    width: 0;
+    height: 0;
+    margin-left: -50;
+}
 }
